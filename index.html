@@ -6,63 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Table</title>
-
-    <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            border: 0;
-        }
-
-        body{
-            background: #ccc;
-            font-family: "Inter", sans-serif;
-        }
-
-        table{
-            border-collapse: collapse;
-            width: 100%;
-        }
-        td{
-            border-bottom: 1px solid #e0e0e0;
-        }
-
-        a{
-            text-decoration: none;
-            color: #98A2B3;
-        }
-        .td-border-none{
-            border: none;
-        }
-
-        .table-inner{
-            width: 600px;
-            padding: 12px 24px 24px;
-            margin: 40px auto 0;
-            background: #fff;
-            box-shadow: 4px 4px 10px 0px #000;
-        }
-
-        /*.table{
-            width: 100%;
-        }*/
-
-        .table-main-row{
-            height: 56px;
-        }
-
-        .w-376{
-            width: 376px;
-        }
-
-        .item_name{
-            font-size: 15px;
-            font-weight: 400;
-            color: #667085;
-        }
-    </style>
 </head>
 <body>
     <div class="table-inner">
@@ -72,7 +17,7 @@
                     <th style="padding-bottom: 48px;" colspan="3">
                         <a style="display: block; padding: 16px 0 28px 0; font-size: 15px; font-weight: 400;" href="#">View in browser</a>
                         <img src="images/Logo.svg" alt="Logo" width="120" height="56">
-                        <p style="font-size: 28px; font-weight: 600; text-align: left; padding-top: 43px;">Functional Style</p>
+                        <p style="font-size: 28px; font-weight: 600; text-align: left; margin-top: 43px;">Functional Style</p>
                         <p style="padding-top: 8px; line-height: 24px; font-size: 15px; font-weight: 400; color: #667085; text-align: left;">Combine practicality and style effortlessly with our furniture, offering functional designs that enhance your living space</p>
                     </th>
                 </tr>
@@ -106,17 +51,17 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td class="td-border-none" colspan="3">
+                    <td style="padding: 48px 0 0;" class="td-border-none" colspan="3">
                         <table>
-                            <tbody>
+                            <tbody style="vertical-align: bottom;">
                                 <tr>
-                                    <td style="padding-top:50px;" class="td-border-none">
+                                    <td style="width: 50%;" class="td-border-none">
                                         <img style="margin-bottom: 12px; text-align: left;" src="images/Logo.svg" alt="Logo" width="120" height="56">
                                         <p style="font-weight: 600; color: #101828; line-height: 24px;">Acme corporation</p>
                                         <p style="font-size: 15px; font-weight: 400; color: #667085; line-height: 24px;">Think different</p>
                                     </td>
-                                    <td class="td-border-none">
-                                        <p style="text-align: right; color: #667085; padding-top: 140px;">123 Main Street Anytown, CA 12345</p>
+                                    <td style="width: 50%;" class="td-border-none">
+                                        <p style="text-align: right; color: #667085;">123 Main Street Anytown, CA 12345</p>
                                     </td>
                                 </tr>
                             </tbody>
